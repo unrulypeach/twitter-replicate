@@ -1,6 +1,5 @@
-/* eslint-disable react/prop-types */
 import React from "react";
-import defaultPic from "../../styles/assets/default_profile.png";
+import defaultPic from "../styles/assets/default_profile.png";
 
 export default function Avatar({
   profilePic = defaultPic,

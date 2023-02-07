@@ -1,7 +1,8 @@
-import "./App.css";
-import Avatar from "./components/user/avatar";
-import ProfileMini from "./components/user/profileMini";
+import Avatar from "./user/avatar";
+import Profile from "./user/profile";
+import ProfileMini from "./user/profileMini";
 import more from "./styles/assets/more_options.svg";
+import SideMenu from "./components/sideMenu";
 
 function App(): JSX.Element {
   return (
@@ -19,6 +20,8 @@ function App(): JSX.Element {
       <Avatar size={49} />
       <img src={more} width={"30px"} height={"30px"} />
       <ProfileMini />
+      <Profile />
+      <SideMenu />
     </div>
   );
 }
