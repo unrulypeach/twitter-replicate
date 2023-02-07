@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary-big {
+    @apply  bg-blue text-white text-[15px] font-bold leading-5
+            flex flex-row justify-center items-center
+            rounded-full w-[228px] h-[49px] py-[15px] px-[93px]
+  }
+
+  .btn-primary-med {
+    @apply  bg-blue text-white text-[15px] font-bold leading-5
+            flex flex-row justify-center items-center
+            rounded-full w-[228px] h-[39px] py-[15px] px-[03px]
+  }
+
+  .btn-secondary-med {
+    @apply border-blue border-[1px] rounded-full text-blue font-bold leading-5
+            flex flex-row justify-center items-center
+            w-[228px] h-[39px] py-[15px] px-[93px]
+  }
+
+  .btn-secondary-sm {
+    @apply border-blue border-[1px] rounded-full text-blue font-bold leading-5
+            flex flex-row justify-center items-center
+            w-[228px] h-[30px] py-[15px] px-[93px]
+  }
+}
