@@ -2,7 +2,7 @@ import Avatar from "./user/avatar";
 import Profile from "./user/profile";
 import ProfileMini from "./user/profileMini";
 import more from "./styles/assets/more_options.svg";
-import SideMenu from "./components/sideMenu";
+import SideMenu from "./components/sidemenu";
 
 function App(): JSX.Element {
   return (
