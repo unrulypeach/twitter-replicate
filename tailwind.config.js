@@ -4,6 +4,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
+      clear: "rgba(0, 0, 0, 0)",
       dark: {
         "100": "#17202A",
         "200": "#1C2733",
@@ -17,6 +18,7 @@ module.exports = {
       white: "#FFFFFF",
       black: "#0F1419",
       blue: "#1DA1F2",
+      searchbar: "#EFF3F4"
     },
     extend: {},
   },
