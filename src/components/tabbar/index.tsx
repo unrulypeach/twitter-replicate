@@ -1,3 +1,12 @@
+import TabitemProfile from "./tabitemProfile";
+import TabitemHome from "./tabitemHome";
+import styleWrapper from "./styleWrapper";
+
 export default function Tabbar(): JSX.Element {
-  return <div>hi</div>;
+  return (
+    <>
+      {styleWrapper(TabitemHome)}
+      {styleWrapper(TabitemProfile)}
+    </>
+  );
 }

@@ -4,6 +4,7 @@ import ProfileMini from "./user/profileMini";
 import SideMenu from "./components/sidemenu";
 import News from "./components/news";
 import Searchbar from "./components/searchbar";
+import Tabbar from "./components/tabbar";
 
 function App(): JSX.Element {
   return (
@@ -16,6 +17,7 @@ function App(): JSX.Element {
       <button className="btn-secondary-med"> Tweet </button>
       <div>--</div>
       <Searchbar />
+      <Tabbar />
       <button className="btn-secondary-sm"> Tweet </button>
       <div>--</div>
       <Avatar />
