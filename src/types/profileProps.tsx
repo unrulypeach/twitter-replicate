@@ -4,4 +4,11 @@ export default interface ProfileProps {
   firstName?: string;
   lastName?: string;
   profilePic?: string;
+  backgroundPic?: string;
+  bio?: string;
+  location?: string;
+  website?: string;
+  joinedDate?: string;
+  following?: number;
+  followers?: number;
 }

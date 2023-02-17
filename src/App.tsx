@@ -20,10 +20,20 @@ function App(): JSX.Element {
       <Tabbar />
       <button className="btn-secondary-sm"> Tweet </button>
       <div>--</div>
+      <Profile
+        userName="Default Default"
+        userHandle="default"
+        bio="living life"
+        location="London"
+        joinedDate="October 2022"
+        website="iamsite.com"
+        followers={6}
+        following={7}
+      />
+      <div>--</div>
       <Avatar />
       <Avatar size={49} />
       <ProfileMini />
-      <Profile />
       <SideMenu />
       <News />
     </div>
