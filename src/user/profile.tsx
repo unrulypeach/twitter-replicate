@@ -58,7 +58,9 @@ export default function Profile({
                 </g>
               </svg>
             </span>
-            <span>{website}</span>
+            <a className="text-blue" href={website}>
+              {website}
+            </a>
           </div>
           <div className="mr-[11px]">
             <span>
@@ -72,7 +74,7 @@ export default function Profile({
                 </g>
               </svg>
             </span>
-            <span className="text-greyTxt">{joinedDate}</span>
+            <span className="text-greyTxt">Joined {joinedDate}</span>
           </div>
         </div>
         <div className="flex flex-row text-[13px] leading-[15px]">
