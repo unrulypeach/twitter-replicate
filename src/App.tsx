@@ -1,10 +1,11 @@
-import Avatar from "./user/avatar";
-import Profile from "./user/profile";
-import ProfileMini from "./user/profileMini";
+import Avatar from "./components/user/avatar";
+import Profile from "./components/user/profile";
+import ProfileMini from "./components/user/profileMini";
 import SideMenu from "./components/sidemenu";
 import News from "./components/news";
 import Searchbar from "./components/searchbar";
 import Tabbar from "./components/tabbar";
+import Post from "./components/post";
 
 function App(): JSX.Element {
   return (
@@ -16,10 +17,15 @@ function App(): JSX.Element {
       <div>--</div>
       <button className="btn-secondary-med"> Tweet </button>
       <div>--</div>
+      <button className="btn-tweet"> Tweet</button>
+      <div>--</div>
       <Searchbar />
       <Tabbar />
       <button className="btn-secondary-sm"> Tweet </button>
       <div>--</div>
+      <Post />
+      <div>--</div>
+
       <Profile
         userName="Default Default"
         userHandle="default"

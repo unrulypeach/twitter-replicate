@@ -1,6 +1,6 @@
 import Avatar from "./avatar";
-import { more } from "../styles/assets/icons/iconData";
-import type ProfileProps from "../types/profileProps";
+import { more } from "../../styles/assets/icons/iconData";
+import type ProfileProps from "../../types/profileProps";
 
 export default function ProfileMini({
   userName,

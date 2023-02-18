@@ -1,4 +1,4 @@
-import type ProfileProps from "../types/profileProps";
+import type ProfileProps from "../../types/profileProps";
 import Avatar from "./avatar";
 
 export default function Profile({

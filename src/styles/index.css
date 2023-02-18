@@ -26,4 +26,18 @@
             flex flex-row justify-center items-center
             w-[228px] h-[30px] py-[15px] px-[93px]
   }
+
+  .btn-tweet {
+    @apply bg-blue text-white text-[14px] leading-[19px] font-bold
+            flex flex-row justify-center items-center grow
+            rounded-full border-[1px] border-blue
+  }
+
+  .blue-icon {
+    @apply  fill-blue h-[1.25em]
+  }
+
+  .blue-icon-positioning {
+    @apply min-w-[34px] min-h-[34px] flex flex-row justify-center text-center items-center
+  }
 }

@@ -1,4 +1,4 @@
-import ProfileMini from "../../user/profileMini";
+import ProfileMini from "../user/profileMini";
 import MenuItem from "./menuitem";
 
 import {
