@@ -8,10 +8,12 @@ import Tabbar from "./components/tabbar";
 import Post from "./components/post";
 import Header from "./components/header";
 import WhoToFollow from "./components/followrec";
+import Tweet from "./components/tweet";
 
 function App(): JSX.Element {
   return (
     <div className="App">
+      <Tweet />
       <div>--</div>
       <button className="btn-primary-big"> Tweet </button>
       <div>--</div>
