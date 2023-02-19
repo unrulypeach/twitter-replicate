@@ -7,17 +7,32 @@ export default function Post(): JSX.Element {
       </div>
       <div className="grow">
         <div className="flex flex-col">
-          <div className="border-[1px] rounded-full">
-            <span className="text-blue"> Everyone</span>
+          <div className="flex flex-row pb-[11px]">
+            <div className="flex flex-row items-center border-[1px] border-dark-650 rounded-full text-[13px] leading-[15px] px-[11px] min-w-[23px] min-h-[23px]">
+              <span className="text-blue font-bold"> Everyone</span>
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  className="fill-blue h-[15px] w-[15px] ml-1"
+                >
+                  <g>
+                    <path d="M3.543 8.96l1.414-1.42L12 14.59l7.043-7.05 1.414 1.42L12 17.41 3.543 8.96z"></path>
+                  </g>
+                </svg>
+              </span>
+            </div>
           </div>
-          <input
-            type="text"
-            className="active:border-0"
-            placeholder="What's happening?"
-          />
+          <div className="py-[11px]">
+            <input
+              type="text"
+              className="border-0 outline-none"
+              placeholder="What's happening?"
+            />
+          </div>
         </div>
 
-        <div className="flex flex-row">
+        <div className="flex flex-row text-[13px] font-bold leading-[15px] pb-[11px]">
           <div>
             <svg
               viewBox="0 0 24 24"
@@ -116,7 +131,7 @@ export default function Post(): JSX.Element {
           <div>
             <div className="bg-blue min-w-[34px] min-h-[34px] opacity-50 flex px-[15px] ml-11px rounded-full">
               <div className="btn-tweet">
-                <span>Tweet</span>
+                <span className="select-none">Tweet</span>
               </div>
             </div>
           </div>
