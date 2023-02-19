@@ -6,6 +6,7 @@ import News from "./components/news";
 import Searchbar from "./components/searchbar";
 import Tabbar from "./components/tabbar";
 import Post from "./components/post";
+import Header from "./components/header";
 
 function App(): JSX.Element {
   return (
@@ -25,7 +26,7 @@ function App(): JSX.Element {
       <div>--</div>
       <Post />
       <div>--</div>
-
+      <Header path="Home" />
       <Profile
         userName="Default Default"
         userHandle="default"
