@@ -40,4 +40,5 @@
   .blue-icon-positioning {
     @apply min-w-[34px] min-h-[34px] flex flex-row justify-center text-center items-center
   }
+  
 }
