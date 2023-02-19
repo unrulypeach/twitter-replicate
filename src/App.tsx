@@ -7,6 +7,7 @@ import Searchbar from "./components/searchbar";
 import Tabbar from "./components/tabbar";
 import Post from "./components/post";
 import Header from "./components/header";
+import WhoToFollow from "./components/followrec";
 
 function App(): JSX.Element {
   return (
@@ -27,6 +28,7 @@ function App(): JSX.Element {
       <Post />
       <div>--</div>
       <Header path="Home" />
+      <WhoToFollow />
       <Profile
         userName="Default Default"
         userHandle="default"
