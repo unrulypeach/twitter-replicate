@@ -14,7 +14,7 @@ import {
   exploreFilled,
 } from "../../styles/assets/icons/iconData";
 
-export default function SideMnu(): JSX.Element {
+export default function SideMenu(): JSX.Element {
   return (
     <div className="flex flex-col basis-auto items-start">
       <div className="flex w-[47px] h-[47px]">
