@@ -1,12 +1,12 @@
-import WhoToFollow from "./followrec";
-import Header from "./header";
-import Post from "./post";
-import Searchbar from "./searchbar";
-import SideMenu from "./sidemenu";
-import TabitemHome from "./tabbar/tabitemHome";
-import News from "./news";
+import WhoToFollow from "../components/followrec";
+import Header from "../components/header";
+import Post from "../components/post";
+import Searchbar from "../components/searchbar";
+import SideMenu from "../components/sidemenu";
+import TabitemHome from "../components/tabbar/tabitemHome";
+import News from "../components/news";
 
-export default function Home(): JSX.Element {
+export default function Root(): JSX.Element {
   return (
     <div className="flex flex-row">
       <div>

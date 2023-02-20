@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/home";
+import Root from "./routes/root";
 
 function App(): JSX.Element {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Root />} />
       </Routes>
     </>
   );
