@@ -74,7 +74,7 @@ export default function Profile({
                 </g>
               </svg>
             </span>
-            <span className="text-greyTxt">Joined {joinedDate}</span>
+            <span className="text-greyTxt">Joined {joinedDate?.getDay()}</span>
           </div>
         </div>
         <div className="flex flex-row text-[13px] leading-[15px]">

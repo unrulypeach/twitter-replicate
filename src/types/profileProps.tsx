@@ -8,7 +8,7 @@ export default interface ProfileProps {
   bio?: string;
   location?: string;
   website?: string;
-  joinedDate?: string;
+  joinedDate?: Date;
   following?: number;
   followers?: number;
 }

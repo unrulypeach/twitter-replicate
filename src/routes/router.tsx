@@ -8,4 +8,8 @@ export const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
   },
+  /* {
+    path: ":userId",
+    element: < />,
+  } */
 ]);
