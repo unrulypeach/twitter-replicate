@@ -9,7 +9,7 @@ import News from "../components/news";
 export default function Root(): JSX.Element {
   return (
     <div className="flex flex-row">
-      <div>
+      <div className="border-r-[1px] border-searchbar h-screen">
         <SideMenu />
       </div>
 
@@ -27,7 +27,7 @@ export default function Root(): JSX.Element {
         </div>
       </div>
 
-      <div>
+      <div className="border-l-[1px] border-searchbar">
         <div>
           <Searchbar />
         </div>

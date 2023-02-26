@@ -1,3 +1,4 @@
+import { moreNoBorder } from "../../styles/assets/icons/iconData";
 import type NewsProps from "../../types/newsProps";
 
 export default function NewsItem({
@@ -7,7 +8,7 @@ export default function NewsItem({
   numberOfTweets,
 }: NewsProps): JSX.Element {
   return (
-    <div className="border-t-[1px]">
+    <div className="border-t-[1px] flex flex-row justify-between">
       <div className="flex flex-col">
         <div className="text-xs">
           <span>{category}</span>
@@ -17,11 +18,12 @@ export default function NewsItem({
         <div className="flex">
           <h2 className="font-bold">{title}</h2>
         </div>
+        <div>
+          <span className="text-xs">{numberOfTweets} Tweets</span>
+        </div>
       </div>
 
-      <div>
-        <span className="text-xs">{numberOfTweets} Tweets</span>
-      </div>
+      <div>{moreNoBorder}</div>
     </div>
   );
 }

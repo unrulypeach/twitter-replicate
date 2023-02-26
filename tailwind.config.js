@@ -14,7 +14,7 @@ module.exports = {
         "600": "#8899A6",
         "650": "#CFD9DE",
         "700": "#EBEEF0",
-        "800": "#F7F9FA",
+        "800": "#F7F9F9",
       },
       greyTxt: "#536471",
       white: "#FFFFFF",

@@ -2,7 +2,7 @@ import NewsItem from "./newsitem";
 
 export default function News(): JSX.Element {
   return (
-    <>
+    <div className="bg-dark-800 rounded-[16px]">
       <h1 className="font-bold">What{`'`}s Happening</h1>
       <NewsItem
         title="Big News"
@@ -17,6 +17,6 @@ export default function News(): JSX.Element {
         numberOfTweets={2}
       />
       <a>Show more</a>
-    </>
+    </div>
   );
 }
