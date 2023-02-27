@@ -15,7 +15,7 @@ export default function Root(): JSX.Element {
 
       <div>
         <div>
-          <Header />
+          <Header path="Home" />
         </div>
 
         <div>
