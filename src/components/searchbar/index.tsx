@@ -2,7 +2,7 @@ import { search } from "../../styles/assets/icons/iconData";
 
 export default function Searchbar(): JSX.Element {
   return (
-    <div className="flex w-fit rounded-full bg-searchbar">
+    <div className="flex w-full rounded-full bg-searchbar mb-[11px]">
       <div className="flex items-stretch rounded-full">
         <div className="flex flex-col items-stretch justify-center basis-auto min-w-[30px] z-0">
           {search}

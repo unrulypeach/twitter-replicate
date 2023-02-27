@@ -2,11 +2,11 @@ import TabitemProfile from "./tabitemProfile";
 import TabitemHome from "./tabitemHome";
 import styleWrapper from "./styleWrapper";
 
-export default function Tabbar(): JSX.Element {
-  return (
-    <>
-      {styleWrapper(TabitemHome)}
-      {styleWrapper(TabitemProfile)}
-    </>
-  );
+interface TabbarProps {
+  path: string;
+}
+export default function Tabbar({ path }: TabbarProps): JSX.Element {
+  return path === "Home"
+    ? styleWrapper(TabitemHome)
+    : styleWrapper(TabitemProfile);
 }

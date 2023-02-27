@@ -3,8 +3,10 @@ import Header from "../components/header";
 import Post from "../components/post";
 import Searchbar from "../components/searchbar";
 import SideMenu from "../components/sidemenu";
-import TabitemHome from "../components/tabbar/tabitemHome";
 import News from "../components/news";
+import Tabbar from "../components/tabbar";
+import Tos from "../components/tos";
+import { userA, userB } from "../data/demoUsers";
 
 export default function Root(): JSX.Element {
   return (
@@ -19,7 +21,7 @@ export default function Root(): JSX.Element {
         </div>
 
         <div>
-          <TabitemHome />
+          <Tabbar path="Home" />
         </div>
 
         <div>
@@ -27,7 +29,7 @@ export default function Root(): JSX.Element {
         </div>
       </div>
 
-      <div className="border-l-[1px] border-searchbar">
+      <div className="pl-5 pt-[11px] pb-[61px] flex flex-col border-l-[1px] border-searchbar max-w-[350px] min-h-screen">
         <div>
           <Searchbar />
         </div>
@@ -37,7 +39,11 @@ export default function Root(): JSX.Element {
         </div>
 
         <div>
-          <WhoToFollow />
+          <WhoToFollow suggestions={[userA, userB]} />
+        </div>
+
+        <div>
+          <Tos />
         </div>
       </div>
     </div>

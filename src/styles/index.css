@@ -33,6 +33,12 @@
             rounded-full border-[1px] border-blue
   }
 
+  .btn-follow {
+    @apply bg-black text-white text-[13px] leading-[15px] font-bold
+            flex flex-row justify-center items-center grow
+            rounded-full border-[1px] border-black
+  }
+
   .blue-icon {
     @apply  fill-blue h-[1.25em]
   }

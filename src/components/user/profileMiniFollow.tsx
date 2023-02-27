@@ -1,14 +1,13 @@
 import Avatar from "./avatar";
-import { moreNoBorder } from "../../styles/assets/icons/iconData";
 import type ProfileProps from "../../types/profileProps";
 
-export default function ProfileMini({
+export default function ProfileMiniFollow({
   userName,
   userHandle,
   profilePic,
 }: ProfileProps): JSX.Element {
   return (
-    <div className="flex justify-between items-center w-[255px] h-[69px]">
+    <div className="flex justify-between items-center h-[69px] px-[15px] py-[11px]">
       <Avatar profilePic={profilePic} />
       <div className="grow pl-3">
         <h1 className="font-bold text-[14px] leading-[19px]">
@@ -18,7 +17,11 @@ export default function ProfileMini({
           {"@" + (userHandle ?? "default")}
         </h2>
       </div>
-      <div className="">{moreNoBorder}</div>
+      <button className="bg-black min-w-[30px] min-h-[30px] flex px-[15px] ml-11px rounded-full">
+        <div className="btn-follow">
+          <span>Follow</span>
+        </div>
+      </button>
     </div>
   );
 }

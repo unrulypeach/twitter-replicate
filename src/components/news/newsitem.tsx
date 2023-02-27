@@ -8,18 +8,24 @@ export default function NewsItem({
   numberOfTweets,
 }: NewsProps): JSX.Element {
   return (
-    <div className="border-t-[1px] flex flex-row justify-between">
+    <div className="flex flex-row justify-between py-[11px] px-[15px]">
       <div className="flex flex-col">
-        <div className="text-xs">
-          <span>{category}</span>
-          <span>-</span>
-          <span>{reasonForSuggest}</span>
+        <div className="flex flex-row text-xs">
+          <div className="text-greyTxt">
+            <span>{category}</span>
+          </div>
+          <div className="px-1 self-center">
+            <span>&middot;</span>
+          </div>
+          <div>
+            <span>{reasonForSuggest}</span>
+          </div>
         </div>
         <div className="flex">
-          <h2 className="font-bold">{title}</h2>
+          <h2 className="text-[14px] leading-[19px] font-bold">{title}</h2>
         </div>
         <div>
-          <span className="text-xs">{numberOfTweets} Tweets</span>
+          <span className="text-xs text-greyTxt">{numberOfTweets} Tweets</span>
         </div>
       </div>
 

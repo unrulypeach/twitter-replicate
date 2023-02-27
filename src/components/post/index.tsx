@@ -12,8 +12,8 @@ import {
 
 export default function Post(): JSX.Element {
   return (
-    <div className="flex flex-row w-[598px]">
-      <div className="mr-[11px]">
+    <div className="flex flex-row w-[598px] border-b-[1px] border-searchbar py-1 px-[15px]">
+      <div className="pt-1 mr-[11px]">
         <Avatar />
       </div>
       <div className="grow">
