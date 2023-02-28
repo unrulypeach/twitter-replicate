@@ -3,7 +3,7 @@ import { moreNoBorder } from "../../styles/assets/icons/iconData";
 export default function Tos(): JSX.Element {
   return (
     <div className="mb-[15px]">
-      <nav className="flex felx-row flex-wrap px-[15px] text-[12px] leading-[15px]">
+      <nav className="flex felx-row flex-wrap px-[15px] text-greyTxt text-[12px] leading-[15px]">
         <a
           href="https://twitter.com/tos"
           className="pr-[11px] cursor-pointer hover:underline"
@@ -40,7 +40,8 @@ export default function Tos(): JSX.Element {
         </a>
 
         <a className=" pr-[11px] cursor-pointer hover:underline">
-          <span>More </span> <span>{moreNoBorder}</span>
+          <span>More </span>{" "}
+          <span className="fill-greyTxt">{moreNoBorder}</span>
         </a>
 
         <a className=" pr-[11px] cursor-pointer hover:underline">

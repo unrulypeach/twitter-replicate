@@ -7,11 +7,10 @@ import {
   notification,
   messages,
   bookmarks,
-  twitterBird,
+  twitterBirdBlue,
   twitterblue,
   profile,
   more,
-  exploreFilled,
 } from "../../styles/assets/icons/iconData";
 
 export default function SideMenu(): JSX.Element {
@@ -20,13 +19,13 @@ export default function SideMenu(): JSX.Element {
       <div className="flex flex-col basis-auto items-start">
         <div className="flex w-[47px] h-[47px]">
           <div className="text-blue flex justify-center items-center grow">
-            {twitterBird}
+            {twitterBirdBlue}
           </div>
         </div>
-        <div>
+        <div className="flex flex-col">
           <MenuItem title="Home" iconData={home} />
           <MenuItem title="Explore" iconData={explore} />
-          <MenuItem title="Notification" iconData={notification} />
+          <MenuItem title="Notifications" iconData={notification} />
           <MenuItem title="Messages" iconData={messages} />
           <MenuItem title="Bookmarks" iconData={bookmarks} />
           <MenuItem title="Twitter Blue" iconData={twitterblue} />

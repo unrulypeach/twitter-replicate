@@ -6,7 +6,7 @@
   .btn-primary-big {
     @apply  bg-blue text-white text-[15px] font-bold leading-5
             flex flex-row justify-center items-center
-            rounded-full w-[228px] h-[49px] py-[15px] px-[93px]
+            rounded-full w-[228px] h-[49px] px-[30px]
   }
 
   .btn-primary-med {

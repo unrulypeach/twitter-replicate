@@ -19,6 +19,7 @@ module.exports = {
       greyTxt: "#536471",
       white: "#FFFFFF",
       black: "#0F1419",
+      blackHov: "#0f14191a",
       blue: "#1DA1F2",
       searchbar: "#EFF3F4"
     },
