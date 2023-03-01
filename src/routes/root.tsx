@@ -2,19 +2,15 @@ import WhoToFollow from "../components/followrec";
 import Header from "../components/header";
 import Post from "../components/post";
 import Searchbar from "../components/searchbar";
-import SideMenu from "../components/sidemenu";
 import News from "../components/news";
 import Tabbar from "../components/tabbar";
 import Tos from "../components/tos";
 import { userA, userB } from "../data/demoUsers";
+import NoHome from "../components/noContent/noHome";
 
 export default function Root(): JSX.Element {
   return (
     <div className="flex flex-row">
-      <div className="border-r-[1px] border-searchbar h-screen">
-        <SideMenu />
-      </div>
-
       <div>
         <div>
           <Header path="Home" />
@@ -26,6 +22,10 @@ export default function Root(): JSX.Element {
 
         <div>
           <Post />
+        </div>
+
+        <div>
+          <NoHome />
         </div>
       </div>
 

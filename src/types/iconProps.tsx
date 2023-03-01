@@ -1,4 +1,4 @@
 export default interface IconProps {
-  title?: string;
+  title: string;
   iconData?: JSX.Element;
 }
