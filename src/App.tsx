@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SideMenu from "./components/sidemenu";
+import SideMenu from "./components/sidemenu/left";
 import BookmarksPage from "./routes/bookmarksPg";
 import ExplorePage from "./routes/explorePg";
 import MessagesPage from "./routes/messagesPg";

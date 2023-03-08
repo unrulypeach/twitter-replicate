@@ -44,7 +44,7 @@ export default function Tos(): JSX.Element {
           <span className="fill-greyTxt">{moreNoBorder}</span>
         </a>
 
-        <a className=" pr-[11px] cursor-pointer hover:underline">
+        <a className=" pr-[11px]">
           <span>© 2023 Twitter, Inc.</span>
         </a>
       </nav>

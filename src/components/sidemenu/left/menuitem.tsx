@@ -1,4 +1,4 @@
-import type IconProps from "../../types/iconProps";
+import type IconProps from "../../../types/iconProps";
 import { Link } from "react-router-dom";
 
 export default function MenuItem({ title, iconData }: IconProps): JSX.Element {

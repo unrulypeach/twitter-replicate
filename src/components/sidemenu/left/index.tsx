@@ -1,4 +1,4 @@
-import ProfileMini from "../user/profileMini";
+import ProfileMini from "../../user/profileMini";
 import MenuItem from "./menuitem";
 
 import {
@@ -11,7 +11,7 @@ import {
   twitterblue,
   profile,
   more,
-} from "../../styles/assets/icons/iconData";
+} from "../../../styles/assets/icons/iconData";
 
 export default function SideMenu(): JSX.Element {
   return (

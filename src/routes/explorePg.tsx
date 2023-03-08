@@ -1,8 +1,7 @@
-import WhoToFollow from "../components/followrec";
 import NewsItem from "../components/news/newsitem";
 import Searchbar from "../components/searchbar";
+import RightSideMenu from "../components/sidemenu/right";
 import Tabbar from "../components/tabbar";
-import Tos from "../components/tos";
 
 export default function ExplorePage(): JSX.Element {
   return (
@@ -34,12 +33,7 @@ export default function ExplorePage(): JSX.Element {
       </div>
 
       <div>
-        <div>
-          <WhoToFollow />
-        </div>
-        <div>
-          <Tos />
-        </div>
+        <RightSideMenu path="explore" />
       </div>
     </div>
   );
