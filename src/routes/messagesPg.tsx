@@ -22,6 +22,12 @@ export default function MessagesPage(): JSX.Element {
               between you and others on Twitter.{" "}
             </span>
           </div>
+
+          <div>
+            <button>
+              <span>Write a message</span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -38,6 +44,12 @@ export default function MessagesPage(): JSX.Element {
             Choose from your existing conversations, start a new one, or just
             keep swimming.
           </span>
+        </div>
+
+        <div>
+          <button>
+            <span>Write a message</span>
+          </button>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import Tabbar from "../components/tabbar";
 export default function ExplorePage(): JSX.Element {
   return (
     <div className="flex flex-row">
-      <div>
+      <div className="grow">
         <div>
           <Searchbar />
         </div>
