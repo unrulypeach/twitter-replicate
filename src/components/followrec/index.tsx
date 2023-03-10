@@ -6,7 +6,7 @@ export default function WhoToFollow({
   suggestions,
 }: WhoToFollowProps): JSX.Element {
   return (
-    <div className="flex flex-col w-full bg-dark-800 rounded-[16px] mb-[15px]">
+    <div className="flex flex-col w-[350px] bg-dark-800 rounded-[16px] mb-[15px]">
       <div className="px-[15px] py-[11px]">
         <span className="text-[19px] leading-[23px] font-bold">
           Who to follow

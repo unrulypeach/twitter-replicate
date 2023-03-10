@@ -24,7 +24,7 @@ export default function MessagesPage(): JSX.Element {
           </div>
 
           <div>
-            <button>
+            <button className="btn-primary-big">
               <span>Write a message</span>
             </button>
           </div>
@@ -47,7 +47,7 @@ export default function MessagesPage(): JSX.Element {
         </div>
 
         <div>
-          <button>
+          <button className="btn-primary-big">
             <span>Write a message</span>
           </button>
         </div>

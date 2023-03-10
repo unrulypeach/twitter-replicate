@@ -2,7 +2,7 @@ import { moreNoBorder } from "../../styles/assets/icons/iconData";
 
 export default function Tos(): JSX.Element {
   return (
-    <div className="mb-[15px]">
+    <div className="mb-[15px] max-w-[350px]">
       <nav className="flex felx-row flex-wrap px-[15px] text-greyTxt text-[12px] leading-[15px]">
         <a
           href="https://twitter.com/tos"
