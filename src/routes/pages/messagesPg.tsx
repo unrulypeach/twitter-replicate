@@ -1,5 +1,5 @@
-import Header from "../components/header";
-import { pathWoBackslash } from "../scripts/utils";
+import Header from "../../features/header";
+import { pathWoBackslash } from "../../scripts/utils";
 
 export default function MessagesPage(): JSX.Element {
   return (

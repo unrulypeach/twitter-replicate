@@ -47,4 +47,7 @@
     @apply min-w-[34px] min-h-[34px] flex flex-row justify-center text-center items-center
   }
   
+  .btn-signup {
+    @apply w-[300px] max-w-[400px] min-w-min h-[40px] rounded-[20px] px-[12px] border-solid border-[#d2dbe0] border-[0.8px]
+  }
 }

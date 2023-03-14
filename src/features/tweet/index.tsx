@@ -1,5 +1,5 @@
 import type ProfileProps from "../../types/profileProps";
-import Avatar from "../user/avatar";
+import Avatar from "../../components/user/avatar";
 import TweetContent from "./tweetContent";
 
 import {

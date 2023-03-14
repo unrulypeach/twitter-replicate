@@ -1,7 +1,7 @@
-import Header from "../components/header";
-import RightSideMenu from "../components/sidemenu/right";
-import Tabbar from "../components/tabbar";
-import Profile from "../components/user/profile";
+import Header from "../../features/header";
+import SignedInRSideMenu from "../../components/sidemenu/right/signedInRSideMenu";
+import Tabbar from "../../features/tabbar";
+import Profile from "../../components/user/profile";
 
 export default function ProfilePage(): JSX.Element {
   return (
@@ -21,7 +21,7 @@ export default function ProfilePage(): JSX.Element {
       </div>
 
       <div>
-        <RightSideMenu path="" />
+        <SignedInRSideMenu path="" />
       </div>
     </div>
   );

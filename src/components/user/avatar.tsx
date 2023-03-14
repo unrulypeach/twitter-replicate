@@ -1,4 +1,3 @@
-import React from "react";
 import defaultPic from "../../styles/assets/default_profile.png";
 
 export default function Avatar({

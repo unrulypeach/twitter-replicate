@@ -1,7 +1,8 @@
-import NewsItem from "../components/news/newsitem";
-import Searchbar from "../components/searchbar";
-import RightSideMenu from "../components/sidemenu/right";
-import Tabbar from "../components/tabbar";
+import NewsItem from "../../features/news/newsitem";
+import Searchbar from "../../features/searchbar";
+import SignedInRSideMenu from "../../components/sidemenu/right/signedInRSideMenu";
+import Tabbar from "../../features/tabbar";
+import SignedOutRSideMenu from "../../components/sidemenu/right/signedOutRSideMenu";
 
 export default function ExplorePage(): JSX.Element {
   return (
@@ -33,7 +34,8 @@ export default function ExplorePage(): JSX.Element {
       </div>
 
       <div>
-        <RightSideMenu path="explore" />
+        <SignedOutRSideMenu />
+        {/* <SignedInRSideMenu path="explore" /> */}
       </div>
     </div>
   );

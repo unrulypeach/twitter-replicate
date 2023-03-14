@@ -1,7 +1,7 @@
-import Header from "../components/header";
-import RightSideMenu from "../components/sidemenu/right";
-import Tabbar from "../components/tabbar";
-import { pathWoBackslash } from "../scripts/utils";
+import Header from "../../features/header";
+import SignedInRSideMenu from "../../components/sidemenu/right/signedInRSideMenu";
+import Tabbar from "../../features/tabbar";
+import { pathWoBackslash } from "../../scripts/utils";
 
 export default function NotificationsPage(): JSX.Element {
   return (
@@ -27,7 +27,7 @@ export default function NotificationsPage(): JSX.Element {
       </div>
 
       <div>
-        <RightSideMenu path="notifications" />
+        <SignedInRSideMenu path="notifications" />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
-import Header from "../components/header";
-import RightSideMenu from "../components/sidemenu/right";
-import { pathWoBackslash } from "../scripts/utils";
-import defaultPic from "../styles/assets/defaults/bookmarksPageDefault.png";
+import Header from "../../features/header";
+import SignedInRSideMenu from "../../components/sidemenu/right/signedInRSideMenu";
+import { pathWoBackslash } from "../../scripts/utils";
+import defaultPic from "../../styles/assets/defaults/bookmarksPageDefault.png";
 
 export default function BookmarksPage(): JSX.Element {
   return (
@@ -30,7 +30,7 @@ export default function BookmarksPage(): JSX.Element {
       </div>
 
       <div>
-        <RightSideMenu path="bookmarks" />
+        <SignedInRSideMenu path="bookmarks" />
       </div>
     </div>
   );

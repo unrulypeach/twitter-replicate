@@ -1,14 +1,14 @@
-import WhoToFollow from "../components/followrec";
-import Header from "../components/header";
-import Post from "../components/post";
-import Searchbar from "../components/searchbar";
-import News from "../components/news";
-import Tabbar from "../components/tabbar";
-import Tos from "../components/tos";
-import { userA, userB } from "../data/demoUsers";
-import NoHome from "../components/noContent/noHome";
+import WhoToFollow from "../../features/followrec";
+import Header from "../../features/header";
+import Post from "../../features/post";
+import Searchbar from "../../features/searchbar";
+import News from "../../features/news";
+import Tabbar from "../../features/tabbar";
+import Tos from "../../features/tos";
+import { userA, userB } from "../../data/demoUsers";
+import NoHome from "../../components/noContent/noHome";
 
-export default function Root(): JSX.Element {
+export default function SignedInHome(): JSX.Element {
   return (
     <div className="flex flex-row">
       <div>

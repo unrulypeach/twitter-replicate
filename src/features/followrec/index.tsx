@@ -1,6 +1,6 @@
 import type WhoToFollowProps from "../../types/followrecProps";
 import uniqid from "uniqid";
-import ProfileMiniFollow from "../user/profileMiniFollow";
+import ProfileMiniFollow from "../../components/user/profileMiniFollow";
 
 export default function WhoToFollow({
   suggestions,

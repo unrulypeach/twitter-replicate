@@ -1,4 +1,4 @@
-import Avatar from "../user/avatar";
+import Avatar from "../../components/user/avatar";
 import {
   dropdown,
   emoji,
